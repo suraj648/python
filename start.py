@@ -26,16 +26,8 @@ print(palindrome(string))
 
 
 def sqrt(number):
-    return number ** 2 ,number **3
+    return number ** 2 number **3
     
 number = int(input("enter a number"))
 
 print(sqrt(number))
-
-
-
-def greet():
-    print("Hello good a how are you...")
-
-
-greet()
