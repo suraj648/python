@@ -99,7 +99,7 @@ class Child(Parent):
 obj1 = Child()
 obj1.grand_parent()"""
 
-from time import sleep
+# from time import sleep
 """def detonate(n):
     def decorator(func):
         def wrapper(*args):
@@ -136,6 +136,23 @@ try:
         raise AgeLessError
 except AgeLessError:
     print("Age should be greater than 18")"""
+
+
+
+
+def fibbo(num):
+    if num == 1:
+        return 0
+    elif num == 2 or num == 3:
+        return 1
+
+    else:
+        return fibbo(num-1)+fibbo(num-2)
+
+
+num = int(input("Enter a number: "))
+
+print(fibbo(num))
 
 
 
