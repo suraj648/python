@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+"""num = int(input("Enter a number: "))
 
 if num % 2 == 0:
     print(f"{num} is even number...")
@@ -35,4 +35,17 @@ print(sqrt(number))
 
 def greet():
     print("good afternoon")
-    print("had your lunch")
+    print("had your lunch")"""
+
+
+# WAP TO REVERSE ALL THE VALUES INSIDE A LIST.
+
+
+li = [1,2,3,4,5,6,7,8,9,10] 
+
+output = []
+
+for i in range(len(li),0,-1):
+    output.append(li[i-1])
+
+print(output)
