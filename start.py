@@ -41,11 +41,13 @@ def greet():
 # WAP TO REVERSE ALL THE VALUES INSIDE A LIST.
 
 
-li = [1,2,3,4,5,6,7,8,9,10] 
+"""li = [1,2,3,4,5,6,7,8,9,10] 
 
 output = []
 
 for i in range(len(li),0,-1):
     output.append(li[i-1])
 
-print(output)
+print(output)"""
+
+
